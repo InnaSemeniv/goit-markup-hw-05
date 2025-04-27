@@ -551,7 +551,6 @@ a {text-decoration: none;}
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-button:hover {
@@ -561,6 +560,8 @@ a {text-decoration: none;}
 .subscribe-icon {
     fill: #FFFFFF;
     margin-left: 16px;
+    flex-shrink: 0;
+    vertical-align: middle;
 }
 
 /* Modal-backdrop */
@@ -627,8 +628,8 @@ a {text-decoration: none;}
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icons-modal:hover,
-.icons-modal:focus {
+.modal-close:hover .icons-modal,
+.modal-close:focus .icons-modal {
     fill: #ffffff;
 }
 
@@ -765,12 +766,12 @@ a {text-decoration: none;}
     fill: transparent;
 }
 
-.visually-hidden:checked +.custom-checkbox {
+.visually-hidden:checked + .custom-checkbox {
     background-color: #404bbf;
     border: none;
 }
 
-.visually-hidden:checked +.custom-checkbox .checkbox-icon {
+.visually-hidden:checked + .custom-checkbox .checkbox-icon {
     fill: #f4f4fd;
 }
 
