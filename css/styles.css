@@ -537,17 +537,16 @@ a {text-decoration: none;}
 }
 
 .subscribe-button {
-    min-width: 165px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
     align-items: center;
+    gap: 16px;
+    padding: 8px 24px;
     background-color: #4D5AE5;
     color: #ffffff;
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: 0.04em;
-    cursor: pointer;
+    width: 165px;
+    height: 40px;
     border-radius: 4px;
     border: none;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -559,7 +558,6 @@ a {text-decoration: none;}
 
 .subscribe-icon {
     fill: #FFFFFF;
-    margin-left: 16px;
 }
 
 /* Modal-backdrop */
