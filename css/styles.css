@@ -539,6 +539,7 @@ a {text-decoration: none;}
 .subscribe-button {
     min-width: 165px;
     height: 40px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -555,7 +556,9 @@ a {text-decoration: none;}
 
 .subscribe-icon {
     margin-left: 16px;
+    flex-shrink: 0;
     fill: #ffffff;
+    display: block;
 }
 
 .subscribe-button:hover {
@@ -778,7 +781,7 @@ a {text-decoration: none;}
     margin-right: 8px;
 }
 
-button[type="submit"] {
+.modal-button {
     display: block;
     min-width: 169px;
     align-items: center;
