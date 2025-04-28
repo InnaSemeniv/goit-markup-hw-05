@@ -4,9 +4,6 @@ body {
     background-color: #ffffff;
 }
 
-:root {
-    --color-light: #f4f4fd;
-}
 
 .container {
     max-width: 1158px;
@@ -777,10 +774,7 @@ a {text-decoration: none;}
 .visually-hidden:checked + .checkbox-lable .custom-checkbox {
     background-color: #404bbf;
     border: none;
-}
-
-.visually-hidden:checked + .checkbox-lable .custom-checkbox .checkbox-icon {
-    fill: var(--color-light);
+    fill: #F4F4FD;
 }
 
 .policy-link {
