@@ -770,12 +770,12 @@ a {text-decoration: none;}
     fill: transparent;
 }
 
-.visually-hidden:checked + .custom-checkbox {
+.visually-hidden:checked + .checkbox-lable .custom-checkbox {
     background-color: #404bbf;
     border: none;
 }
 
-.visually-hidden:checked + .custom-checkbox .checkbox-icon {
+.visually-hidden:checked + .checkbox-lable .custom-checkbox .checkbox-icon {
     fill: #f4f4fd;
 }
 
