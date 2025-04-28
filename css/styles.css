@@ -504,12 +504,6 @@ a {text-decoration: none;}
     background-color: #31d0aa;
 }
 
-.subscribe-form {
-    display: flex;
-    gap: 24px;
-    flex-wrap: nowrap;
-}
-
 .footer-subscribe-title {
     font-weight: 500;
     font-size: 16px;
@@ -522,7 +516,6 @@ a {text-decoration: none;}
 .subscribe-form {
     display: flex;
     gap: 24px;
-    flex-wrap: nowrap;
 }
 
 .subscribe-input {
@@ -752,11 +745,6 @@ a {text-decoration: none;}
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
-    align-items: center;
-    font-weight: 400;
-    margin-bottom: 24px;
-    gap: 8px;
 }
 
 .custom-checkbox {
